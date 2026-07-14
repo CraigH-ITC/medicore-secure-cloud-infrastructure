@@ -1,0 +1,2 @@
+version: '3.8'services:web:build:context: .dockerfile: Dockerfileports:- "3000:3000"environment:- PORT=3000- DATABASE_URL=postgresql://postgres:securepassword123@db:5432/clinical_dbdepends_on:db:condition: service_healthydb:image: postgres:15-alpineenvironment:- POSTGRES_USER=postgres- POSTGRES_PASSWORD=securepassword123- POSTGRES_DB=clinical_dbports:- "5432:5432"volumes:- pgdata:/var/lib/postgresql/datahealthcheck:test: ["CMD-SHELL", "pg_isready -U postgres -d clinical_db"]
+      interval: 5stimeout: 5sretries: 5volumes:pgdata:
