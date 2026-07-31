@@ -17,4 +17,4 @@ As part of DTS202, assignment 1, this is a secure cloud infrastructure design fo
 
 ## Architecure
 
-![Architecture Diagram](Screenshots/Architecture/00. Medicore_AWS_Architecture.png)
+![Architecture Diagram](Screenshots/Architecture/00.%20Medicore_AWS_Architecture.png)
