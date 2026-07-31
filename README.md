@@ -14,3 +14,7 @@ Europe (London) - eu-west-2
 ## Project Overview
 
 As part of DTS202, assignment 1, this is a secure cloud infrastructure design for MediCore Health Systems supporting the processing of NHS clinical data in accordance with regulatory and security requirements as set out in UK GDPR, NHS DSPT and Cyber Essentials Plus requirements.
+
+## Architecure
+
+![Architecture Diagram]()
